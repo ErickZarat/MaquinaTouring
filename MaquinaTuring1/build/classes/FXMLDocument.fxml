@@ -1,14 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import java.util.*?>
 <?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
-    <children>
-        <Button layoutX="126" layoutY="90" text="Click Me!" onAction="#handleButtonAction" fx:id="button" />
-        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" />
-    </children>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="523.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <children>
+      
+      <Label fx:id="txtBinario" layoutX="126.0" layoutY="117.0" styleClass="label-bright" text="" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Label fx:id="txtDecimal" layoutX="126.0" layoutY="150.0" styleClass="label-bright" text="" AnchorPane.leftAnchor="160.0" AnchorPane.topAnchor="157.0">
+         <font>
+            <Font size="22.0" />
+         </font></Label>
+      <Button defaultButton="true" layoutX="382.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnAction" text="Nuevo" AnchorPane.bottomAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <TextArea fx:id="txtCinta" layoutX="17.0" layoutY="19.0" prefHeight="49.0" prefWidth="555.0" styleClass="text-field" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="50.0" />
+      <Label layoutX="15.0" layoutY="117.0" styleClass="label-header" text="BINARIO:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="117.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="152.0" styleClass="label-header" text="DECIMAL:" AnchorPane.leftAnchor="15.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="TOP_CENTER" layoutX="202.0" layoutY="15.0" styleClass="label-header" text="Maquina de Turing" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="5.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+   </children>
 </AnchorPane>
