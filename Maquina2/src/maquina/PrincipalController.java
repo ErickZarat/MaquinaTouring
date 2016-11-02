@@ -12,11 +12,14 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
 public class PrincipalController implements Initializable {
     
     @FXML private TextArea textAreaTira;
+    @FXML private Label textoBinario;
+    @FXML private Label textoNumero;
     
     //Declaracion de constantes
     private final String salto = "S";
@@ -36,12 +39,8 @@ public class PrincipalController implements Initializable {
     @Override public void initialize(URL url, ResourceBundle rb) {}
     
     private void mostrarAlerta(String binario, String decimal) {
-        Alert alert = new Alert(AlertType.INFORMATION);
-        String titulo = "Resultado";
-        alert.setTitle(titulo);
-        alert.setHeaderText(titulo);
-        alert.setContentText("BINARIO: " + binario.substring(0, 64) + "...\nDECIMAL: " + decimal);
-        alert.show();
+        textoBinario.setText(binario);
+        textoNumero.setText(decimal);
     }
 
     private void maquina() {
