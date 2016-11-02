@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="MaquinaTuring.jar" size="5003" download="eager" />
+    <jar href="MaquinaTuring.jar" size="4717" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="MaquinaTuring" >
     <param name="requiredFXVersion" value="8.0+"/>

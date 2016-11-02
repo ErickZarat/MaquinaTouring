@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="147.0" minHeight="147.0" minWidth="476.0" prefHeight="147.0" prefWidth="476.0" styleClass="background" stylesheets="@estilo.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="maquina.PrincipalController">
+    <children>
+        <Button defaultButton="true" layoutX="171.0" layoutY="82.0" onAction="#handleButtonAction" text="Aleatoreo" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="75.0" AnchorPane.topAnchor="81.0">
+         <effect>
+            <Shadow />
+         </effect></Button>
+      <TextArea fx:id="textAreaTira" layoutX="153.0" layoutY="55.0" prefHeight="54.0" prefWidth="426.0" AnchorPane.bottomAnchor="73.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="20.0" />
+    </children>
+</AnchorPane>
