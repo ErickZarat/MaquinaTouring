@@ -15,12 +15,12 @@
             <Shadow />
          </effect></Button>
       <TextArea fx:id="textAreaTira" layoutX="153.0" layoutY="55.0" prefHeight="54.0" prefWidth="426.0" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0" AnchorPane.topAnchor="20.0" />
-      <Label fx:id="textoBinario" alignment="CENTER" layoutX="220.0" layoutY="165.0" text="Label" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+      <Label fx:id="textoBinario" alignment="CENTER" layoutX="220.0" layoutY="165.0" text="Binario" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label fx:id="textoNumero" alignment="CENTER" layoutX="220.0" layoutY="204.0" text="Label" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
+      <Label fx:id="textoNumero" alignment="CENTER" layoutX="220.0" layoutY="204.0" text="Decimal" AnchorPane.leftAnchor="25.0" AnchorPane.rightAnchor="25.0">
          <font>
             <Font size="16.0" />
          </font>
